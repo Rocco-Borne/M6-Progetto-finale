@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CoinCollector : MonoBehaviour
 {
-    private int coinCount = 0;
+    private int coinCount;
     public TextMeshProUGUI coinText;
     private void OnTriggerEnter(Collider other)
     {
@@ -17,5 +17,9 @@ public class CoinCollector : MonoBehaviour
 
             Destroy(other.gameObject);
         }
+    }
+    public int getCoinCount()
+    {
+        return coinCount;
     }
 }

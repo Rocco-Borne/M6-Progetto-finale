@@ -187,7 +187,7 @@ Transform:
   m_GameObject: {fileID: 7010769}
   serializedVersion: 2
   m_LocalRotation: {x: 0.20106587, y: -1.619715e-17, z: 3.339105e-18, w: 0.9795778}
-  m_LocalPosition: {x: 0, y: 6.523, z: -103}
+  m_LocalPosition: {x: 0, y: 6.523, z: 24.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2365,7 +2365,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.20106588, y: -1.619404e-17, z: 3.3239517e-18, w: 0.9795777}
-  m_LocalPosition: {x: 0, y: 6.523, z: -103}
+  m_LocalPosition: {x: 0, y: 6.523, z: 24.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2545,7 +2545,7 @@ Transform:
   m_GameObject: {fileID: 331872498}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.523, z: -96}
+  m_LocalPosition: {x: 0, y: 0.523, z: 31.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2597,7 +2597,7 @@ CharacterController:
   serializedVersion: 3
   m_Height: 2
   m_Radius: 0.5
-  m_SlopeLimit: 45
+  m_SlopeLimit: 50
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
@@ -5393,7 +5393,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winUI: {fileID: 1314309724}
-  interactUi: {fileID: 1254389868}
+  interactUI: {fileID: 1254389868}
+  getMoreCoinUI: {fileID: 1314309724}
 --- !u!43 &598636666
 Mesh:
   m_ObjectHideFlags: 0
